@@ -1,10 +1,10 @@
 
 
 def alphabetize(arr)
-  ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  alaphbet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   arr.sort_by do |word|
     word.split(' ').map do |letter|
-      ALAPHBET.index(letter)
+      alaphbet.index(letter)
     end
   end
 end
